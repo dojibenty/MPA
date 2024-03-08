@@ -1,0 +1,356 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xmi:XMI xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:dcl="http://fr.ubo.mde.cares/dcl" xmlns:description="http://www.eclipse.org/sirius/description/1.1.0" xmlns:description_1="http://www.eclipse.org/sirius/diagram/description/1.1.0" xmlns:diagram="http://www.eclipse.org/sirius/diagram/1.1.0" xmlns:notation="http://www.eclipse.org/gmf/runtime/1.0.2/notation" xmlns:style="http://www.eclipse.org/sirius/diagram/description/style/1.1.0" xmlns:sys="http://fr.ubo.mde.cares/sys" xmlns:viewpoint="http://www.eclipse.org/sirius/1.1.0" xsi:schemaLocation="http://www.eclipse.org/sirius/description/1.1.0 http://www.eclipse.org/sirius/1.1.0#//description http://www.eclipse.org/sirius/diagram/description/1.1.0 http://www.eclipse.org/sirius/diagram/1.1.0#//description http://www.eclipse.org/sirius/diagram/description/style/1.1.0 http://www.eclipse.org/sirius/diagram/1.1.0#//description/style">
+  <viewpoint:DAnalysis uid="_yapfIH7PEe6Q6pbqbglT5Q" selectedViews="_hz9u0H7REe6z8JOWoM5b7g" version="14.1.0.201810161215">
+    <semanticResources>model/Drone.csys</semanticResources>
+    <semanticResources>model/Drone.dcl</semanticResources>
+    <semanticResources>model/core.dcl</semanticResources>
+    <semanticResources>model/Drone.scn</semanticResources>
+    <ownedViews xmi:type="viewpoint:DView" uid="_hz9u0H7REe6z8JOWoM5b7g">
+      <viewpoint xmi:type="description:Viewpoint" href="platform:/plugin/design.csys.cares.ubo.fr/description/fr.odesign#//@ownedViewpoints[name='componentsystem']"/>
+      <ownedRepresentationDescriptors xmi:type="viewpoint:DRepresentationDescriptor" uid="_Iczx8H7UEe6egs7mdGRaEw" name="Drone Component System Diagram" repPath="#_Iah6AH7UEe6egs7mdGRaEw">
+        <description xmi:type="description_1:DiagramDescription" href="platform:/plugin/design.csys.cares.ubo.fr/description/fr.odesign#//@ownedViewpoints[name='componentsystem']/@ownedRepresentations[name='Component%20System%20Diagram']"/>
+        <target xmi:type="sys:CompositeComponent" href="model/Drone.csys#//@rootSystemComponent"/>
+      </ownedRepresentationDescriptors>
+    </ownedViews>
+  </viewpoint:DAnalysis>
+  <diagram:DSemanticDiagram uid="_Iah6AH7UEe6egs7mdGRaEw" name="Drone Component System Diagram">
+    <ownedAnnotationEntries xmi:type="description:AnnotationEntry" uid="_IctrUH7UEe6egs7mdGRaEw" source="DANNOTATION_CUSTOMIZATION_KEY">
+      <data xmi:type="diagram:ComputedStyleDescriptionRegistry" uid="_IctrUX7UEe6egs7mdGRaEw"/>
+    </ownedAnnotationEntries>
+    <ownedAnnotationEntries xmi:type="description:AnnotationEntry" uid="_IdOBoH7UEe6egs7mdGRaEw" source="GMF_DIAGRAMS">
+      <data xmi:type="notation:Diagram" xmi:id="_IdOBoX7UEe6egs7mdGRaEw" type="Sirius" element="_Iah6AH7UEe6egs7mdGRaEw" measurementUnit="Pixel">
+        <children xmi:type="notation:Node" xmi:id="_N5s4cH7UEe6egs7mdGRaEw" type="2003" element="_N41VwH7UEe6egs7mdGRaEw">
+          <children xmi:type="notation:Node" xmi:id="_N500QH7UEe6egs7mdGRaEw" type="3012" element="_N494oH7UEe6egs7mdGRaEw">
+            <children xmi:type="notation:Node" xmi:id="_N51bUH7UEe6egs7mdGRaEw" type="5010">
+              <layoutConstraint xmi:type="notation:Location" xmi:id="_N51bUX7UEe6egs7mdGRaEw" y="5"/>
+            </children>
+            <children xmi:type="notation:Node" xmi:id="_N58JAH7UEe6egs7mdGRaEw" type="3003" element="_N4_GwH7UEe6egs7mdGRaEw">
+              <styles xmi:type="notation:ShapeStyle" xmi:id="_N58JAX7UEe6egs7mdGRaEw" fontName="Segoe UI"/>
+              <layoutConstraint xmi:type="notation:Bounds" xmi:id="_N58JAn7UEe6egs7mdGRaEw"/>
+            </children>
+            <styles xmi:type="notation:ShapeStyle" xmi:id="_N500QX7UEe6egs7mdGRaEw" fontName="Segoe UI" fontHeight="8"/>
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_N500Qn7UEe6egs7mdGRaEw" x="-91" y="14" width="99" height="29"/>
+          </children>
+          <children xmi:type="notation:Node" xmi:id="_N5664H7UEe6egs7mdGRaEw" type="3012" element="_N4_t0X7UEe6egs7mdGRaEw">
+            <children xmi:type="notation:Node" xmi:id="_N566437UEe6egs7mdGRaEw" type="5010">
+              <layoutConstraint xmi:type="notation:Location" xmi:id="_N5665H7UEe6egs7mdGRaEw" y="5"/>
+            </children>
+            <children xmi:type="notation:Node" xmi:id="_N58wEH7UEe6egs7mdGRaEw" type="3003" element="_N4_t0n7UEe6egs7mdGRaEw">
+              <styles xmi:type="notation:ShapeStyle" xmi:id="_N58wEX7UEe6egs7mdGRaEw" fontName="Segoe UI"/>
+              <layoutConstraint xmi:type="notation:Bounds" xmi:id="_N58wEn7UEe6egs7mdGRaEw"/>
+            </children>
+            <styles xmi:type="notation:ShapeStyle" xmi:id="_N5664X7UEe6egs7mdGRaEw" fontName="Segoe UI" fontHeight="8"/>
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_N5664n7UEe6egs7mdGRaEw" x="-91" y="77" width="99" height="27"/>
+          </children>
+          <children xmi:type="notation:Node" xmi:id="_N5xw8H7UEe6egs7mdGRaEw" type="5007"/>
+          <children xmi:type="notation:Node" xmi:id="_N5y_EH7UEe6egs7mdGRaEw" type="7004">
+            <children xmi:type="notation:Node" xmi:id="_N59-MH7UEe6egs7mdGRaEw" type="3010" element="_N5A78H7UEe6egs7mdGRaEw">
+              <styles xmi:type="notation:FontStyle" xmi:id="_N59-MX7UEe6egs7mdGRaEw" fontName="Segoe UI" fontHeight="8" underline="true"/>
+              <layoutConstraint xmi:type="notation:Location" xmi:id="_N59-Mn7UEe6egs7mdGRaEw"/>
+            </children>
+            <children xmi:type="notation:Node" xmi:id="_N59-M37UEe6egs7mdGRaEw" type="3010" element="_N5CxIH7UEe6egs7mdGRaEw">
+              <styles xmi:type="notation:FontStyle" xmi:id="_N59-NH7UEe6egs7mdGRaEw" fontName="Segoe UI" fontHeight="8"/>
+              <layoutConstraint xmi:type="notation:Location" xmi:id="_N59-NX7UEe6egs7mdGRaEw"/>
+            </children>
+            <children xmi:type="notation:Node" xmi:id="_N5-lQH7UEe6egs7mdGRaEw" type="3010" element="_N5CxIn7UEe6egs7mdGRaEw">
+              <styles xmi:type="notation:FontStyle" xmi:id="_N5-lQX7UEe6egs7mdGRaEw" fontName="Segoe UI" fontHeight="8"/>
+              <layoutConstraint xmi:type="notation:Location" xmi:id="_N5-lQn7UEe6egs7mdGRaEw"/>
+            </children>
+            <styles xmi:type="notation:SortingStyle" xmi:id="_N5y_EX7UEe6egs7mdGRaEw"/>
+            <styles xmi:type="notation:FilteringStyle" xmi:id="_N5y_En7UEe6egs7mdGRaEw"/>
+          </children>
+          <styles xmi:type="notation:ShapeStyle" xmi:id="_N5tfgH7UEe6egs7mdGRaEw" fontName="Segoe UI" fontHeight="8"/>
+          <layoutConstraint xmi:type="notation:Bounds" xmi:id="_N5tfgX7UEe6egs7mdGRaEw" x="959" y="273" width="234" height="115"/>
+        </children>
+        <children xmi:type="notation:Node" xmi:id="_gSnCEH7XEe6egs7mdGRaEw" type="2003" element="_gSefMX7XEe6egs7mdGRaEw">
+          <children xmi:type="notation:Node" xmi:id="_gSoQNH7XEe6egs7mdGRaEw" type="3012" element="_gSftUH7XEe6egs7mdGRaEw">
+            <children xmi:type="notation:Node" xmi:id="_gSo3QH7XEe6egs7mdGRaEw" type="5010">
+              <layoutConstraint xmi:type="notation:Location" xmi:id="_gSo3QX7XEe6egs7mdGRaEw" y="5"/>
+            </children>
+            <children xmi:type="notation:Node" xmi:id="_gSqFYH7XEe6egs7mdGRaEw" type="3003" element="_gSftUX7XEe6egs7mdGRaEw">
+              <styles xmi:type="notation:ShapeStyle" xmi:id="_gSqFYX7XEe6egs7mdGRaEw" fontName="Segoe UI"/>
+              <layoutConstraint xmi:type="notation:Bounds" xmi:id="_gSqFYn7XEe6egs7mdGRaEw"/>
+            </children>
+            <styles xmi:type="notation:ShapeStyle" xmi:id="_gSoQNX7XEe6egs7mdGRaEw" fontName="Segoe UI" fontHeight="8"/>
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_gSoQNn7XEe6egs7mdGRaEw" x="147" y="84" width="99" height="27"/>
+          </children>
+          <children xmi:type="notation:Node" xmi:id="_gSo3Qn7XEe6egs7mdGRaEw" type="3012" element="_gSgUYX7XEe6egs7mdGRaEw">
+            <children xmi:type="notation:Node" xmi:id="_gSpeUH7XEe6egs7mdGRaEw" type="5010">
+              <layoutConstraint xmi:type="notation:Location" xmi:id="_gSpeUX7XEe6egs7mdGRaEw" y="5"/>
+            </children>
+            <children xmi:type="notation:Node" xmi:id="_gSrTgH7XEe6egs7mdGRaEw" type="3003" element="_gSg7cH7XEe6egs7mdGRaEw">
+              <styles xmi:type="notation:ShapeStyle" xmi:id="_gSrTgX7XEe6egs7mdGRaEw" fontName="Segoe UI"/>
+              <layoutConstraint xmi:type="notation:Bounds" xmi:id="_gSrTgn7XEe6egs7mdGRaEw"/>
+            </children>
+            <styles xmi:type="notation:ShapeStyle" xmi:id="_gSo3Q37XEe6egs7mdGRaEw" fontName="Segoe UI" fontHeight="8"/>
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_gSo3RH7XEe6egs7mdGRaEw" x="147" y="14" width="99" height="27"/>
+          </children>
+          <children xmi:type="notation:Node" xmi:id="_gSoQMH7XEe6egs7mdGRaEw" type="5007"/>
+          <children xmi:type="notation:Node" xmi:id="_gSoQMX7XEe6egs7mdGRaEw" type="7004">
+            <children xmi:type="notation:Node" xmi:id="_gSr6kH7XEe6egs7mdGRaEw" type="3010" element="_gShigH7XEe6egs7mdGRaEw">
+              <styles xmi:type="notation:FontStyle" xmi:id="_gSr6kX7XEe6egs7mdGRaEw" fontName="Segoe UI" fontHeight="8" underline="true"/>
+              <layoutConstraint xmi:type="notation:Location" xmi:id="_gSr6kn7XEe6egs7mdGRaEw"/>
+            </children>
+            <children xmi:type="notation:Node" xmi:id="_gSshoH7XEe6egs7mdGRaEw" type="3010" element="_gShign7XEe6egs7mdGRaEw">
+              <styles xmi:type="notation:FontStyle" xmi:id="_gSshoX7XEe6egs7mdGRaEw" fontName="Segoe UI" fontHeight="8"/>
+              <layoutConstraint xmi:type="notation:Location" xmi:id="_gSshon7XEe6egs7mdGRaEw"/>
+            </children>
+            <styles xmi:type="notation:SortingStyle" xmi:id="_gSoQMn7XEe6egs7mdGRaEw"/>
+            <styles xmi:type="notation:FilteringStyle" xmi:id="_gSoQM37XEe6egs7mdGRaEw"/>
+          </children>
+          <styles xmi:type="notation:ShapeStyle" xmi:id="_gSnCEX7XEe6egs7mdGRaEw" fontName="Segoe UI" fontHeight="8"/>
+          <layoutConstraint xmi:type="notation:Bounds" xmi:id="_gSnCEn7XEe6egs7mdGRaEw" x="322" y="270" width="157" height="122"/>
+        </children>
+        <children xmi:type="notation:Node" xmi:id="_zP06AH7XEe6egs7mdGRaEw" type="2001" element="_zPwokH7XEe6egs7mdGRaEw">
+          <children xmi:type="notation:Node" xmi:id="_zP1hEH7XEe6egs7mdGRaEw" type="5002">
+            <layoutConstraint xmi:type="notation:Location" xmi:id="_zP1hEX7XEe6egs7mdGRaEw" y="5"/>
+          </children>
+          <children xmi:type="notation:Node" xmi:id="_zP2IIH7XEe6egs7mdGRaEw" type="3002" element="_zPwokX7XEe6egs7mdGRaEw">
+            <styles xmi:type="notation:ShapeStyle" xmi:id="_zP2IIX7XEe6egs7mdGRaEw" fontName="Segoe UI"/>
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_zP2IIn7XEe6egs7mdGRaEw"/>
+          </children>
+          <styles xmi:type="notation:ShapeStyle" xmi:id="_zP06AX7XEe6egs7mdGRaEw" fontName="Segoe UI" fontHeight="12"/>
+          <layoutConstraint xmi:type="notation:Bounds" xmi:id="_zP06An7XEe6egs7mdGRaEw" x="694" y="270" width="50" height="53"/>
+        </children>
+        <children xmi:type="notation:Node" xmi:id="_zj2CMH7XEe6egs7mdGRaEw" type="2001" element="_zjxwwH7XEe6egs7mdGRaEw">
+          <children xmi:type="notation:Node" xmi:id="_zj2pQH7XEe6egs7mdGRaEw" type="5002">
+            <layoutConstraint xmi:type="notation:Location" xmi:id="_zj2pQX7XEe6egs7mdGRaEw" y="5"/>
+          </children>
+          <children xmi:type="notation:Node" xmi:id="_zj2pQn7XEe6egs7mdGRaEw" type="3002" element="_zjxwwX7XEe6egs7mdGRaEw">
+            <styles xmi:type="notation:ShapeStyle" xmi:id="_zj2pQ37XEe6egs7mdGRaEw" fontName="Segoe UI"/>
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_zj2pRH7XEe6egs7mdGRaEw"/>
+          </children>
+          <styles xmi:type="notation:ShapeStyle" xmi:id="_zj2CMX7XEe6egs7mdGRaEw" fontName="Segoe UI" fontHeight="12"/>
+          <layoutConstraint xmi:type="notation:Bounds" xmi:id="_zj2CMn7XEe6egs7mdGRaEw" x="694" y="357" width="50" height="50"/>
+        </children>
+        <styles xmi:type="notation:DiagramStyle" xmi:id="_IdOBon7UEe6egs7mdGRaEw"/>
+        <edges xmi:type="notation:Edge" xmi:id="_4gMAYH7XEe6egs7mdGRaEw" type="4001" element="_4gAaMH7XEe6egs7mdGRaEw" source="_zP06AH7XEe6egs7mdGRaEw" target="_gSo3Qn7XEe6egs7mdGRaEw">
+          <children xmi:type="notation:Node" xmi:id="_4gNOgH7XEe6egs7mdGRaEw" type="6001">
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_4gNOgX7XEe6egs7mdGRaEw" y="-10"/>
+          </children>
+          <children xmi:type="notation:Node" xmi:id="_4gNOgn7XEe6egs7mdGRaEw" type="6002">
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_4gNOg37XEe6egs7mdGRaEw" y="10"/>
+          </children>
+          <children xmi:type="notation:Node" xmi:id="_4gN1kH7XEe6egs7mdGRaEw" type="6003">
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_4gN1kX7XEe6egs7mdGRaEw" y="10"/>
+          </children>
+          <styles xmi:type="notation:ConnectorStyle" xmi:id="_4gMAYX7XEe6egs7mdGRaEw" routing="Rectilinear"/>
+          <styles xmi:type="notation:FontStyle" xmi:id="_4gMAYn7XEe6egs7mdGRaEw" fontName="Segoe UI"/>
+          <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_4gMAY37XEe6egs7mdGRaEw" points="[0, 0, 126, 0]$[-126, 0, 0, 0]"/>
+          <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_4gPqwH7XEe6egs7mdGRaEw" id="(0.0,0.5094339622641509)"/>
+          <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_4gPqwX7XEe6egs7mdGRaEw" id="(1.0,0.48148148148148145)"/>
+        </edges>
+        <edges xmi:type="notation:Edge" xmi:id="_44vqUH7XEe6egs7mdGRaEw" type="4001" element="_44nHcn7XEe6egs7mdGRaEw" source="_zj2CMH7XEe6egs7mdGRaEw" target="_N5664H7UEe6egs7mdGRaEw">
+          <children xmi:type="notation:Node" xmi:id="_44vqVH7XEe6egs7mdGRaEw" type="6001">
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_44vqVX7XEe6egs7mdGRaEw" y="-10"/>
+          </children>
+          <children xmi:type="notation:Node" xmi:id="_44vqVn7XEe6egs7mdGRaEw" type="6002">
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_44vqV37XEe6egs7mdGRaEw" y="10"/>
+          </children>
+          <children xmi:type="notation:Node" xmi:id="_44vqWH7XEe6egs7mdGRaEw" type="6003">
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_44vqWX7XEe6egs7mdGRaEw" y="10"/>
+          </children>
+          <styles xmi:type="notation:ConnectorStyle" xmi:id="_44vqUX7XEe6egs7mdGRaEw" routing="Rectilinear"/>
+          <styles xmi:type="notation:FontStyle" xmi:id="_44vqUn7XEe6egs7mdGRaEw" fontName="Segoe UI"/>
+          <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_44vqU37XEe6egs7mdGRaEw" points="[0, 0, -124, 28]$[62, 0, -62, 28]$[62, -28, -62, 0]$[124, -28, 0, 0]"/>
+          <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_44vqWn7XEe6egs7mdGRaEw" id="(1.0,0.56)"/>
+          <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_44vqW37XEe6egs7mdGRaEw" id="(0.0,0.25925925925925924)"/>
+        </edges>
+        <edges xmi:type="notation:Edge" xmi:id="_5QeN0H7XEe6egs7mdGRaEw" type="4001" element="_5QajcH7XEe6egs7mdGRaEw" source="_zj2CMH7XEe6egs7mdGRaEw" target="_gSoQNH7XEe6egs7mdGRaEw">
+          <children xmi:type="notation:Node" xmi:id="_5Qe04H7XEe6egs7mdGRaEw" type="6001">
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_5Qe04X7XEe6egs7mdGRaEw" y="-10"/>
+          </children>
+          <children xmi:type="notation:Node" xmi:id="_5Qe04n7XEe6egs7mdGRaEw" type="6002">
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_5Qe0437XEe6egs7mdGRaEw" y="10"/>
+          </children>
+          <children xmi:type="notation:Node" xmi:id="_5Qe05H7XEe6egs7mdGRaEw" type="6003">
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_5Qe05X7XEe6egs7mdGRaEw" y="10"/>
+          </children>
+          <styles xmi:type="notation:ConnectorStyle" xmi:id="_5QeN0X7XEe6egs7mdGRaEw" routing="Rectilinear"/>
+          <styles xmi:type="notation:FontStyle" xmi:id="_5QeN0n7XEe6egs7mdGRaEw" fontName="Segoe UI"/>
+          <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_5QeN037XEe6egs7mdGRaEw" points="[0, 0, 126, 21]$[-63, 0, 63, 21]$[-63, -21, 63, 0]$[-126, -21, 0, 0]"/>
+          <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_5Qe05n7XEe6egs7mdGRaEw" id="(0.0,0.56)"/>
+          <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_5Qe0537XEe6egs7mdGRaEw" id="(1.0,0.37037037037037035)"/>
+        </edges>
+        <edges xmi:type="notation:Edge" xmi:id="_5rf88H7XEe6egs7mdGRaEw" type="4001" element="_5rbEcn7XEe6egs7mdGRaEw" source="_zP06AH7XEe6egs7mdGRaEw" target="_N500QH7UEe6egs7mdGRaEw">
+          <children xmi:type="notation:Node" xmi:id="_5rgkAH7XEe6egs7mdGRaEw" type="6001">
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_5rgkAX7XEe6egs7mdGRaEw" y="-10"/>
+          </children>
+          <children xmi:type="notation:Node" xmi:id="_5rgkAn7XEe6egs7mdGRaEw" type="6002">
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_5rgkA37XEe6egs7mdGRaEw" y="10"/>
+          </children>
+          <children xmi:type="notation:Node" xmi:id="_5rgkBH7XEe6egs7mdGRaEw" type="6003">
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_5rgkBX7XEe6egs7mdGRaEw" y="10"/>
+          </children>
+          <styles xmi:type="notation:ConnectorStyle" xmi:id="_5rf88X7XEe6egs7mdGRaEw" routing="Rectilinear"/>
+          <styles xmi:type="notation:FontStyle" xmi:id="_5rf88n7XEe6egs7mdGRaEw" fontName="Segoe UI"/>
+          <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_5rf8837XEe6egs7mdGRaEw" points="[0, 0, -124, 0]$[124, 0, 0, 0]"/>
+          <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_5rgkBn7XEe6egs7mdGRaEw" id="(1.0,0.5849056603773585)"/>
+          <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_5rgkB37XEe6egs7mdGRaEw" id="(0.0,0.4827586206896552)"/>
+        </edges>
+      </data>
+    </ownedAnnotationEntries>
+    <ownedDiagramElements xmi:type="diagram:DNodeList" uid="_N41VwH7UEe6egs7mdGRaEw" name="InstDrone">
+      <target xmi:type="sys:LeafComponent" href="model/Drone.csys#//@rootSystemComponent/@components.0"/>
+      <semanticElements xmi:type="sys:LeafComponent" href="model/Drone.csys#//@rootSystemComponent/@components.0"/>
+      <ownedBorderedNodes xmi:type="diagram:DNode" uid="_N494oH7UEe6egs7mdGRaEw" name="newLocation" incomingEdges="_5rbEcn7XEe6egs7mdGRaEw" width="8" height="2" resizeKind="NSEW">
+        <target xmi:type="sys:LeafInputPort" href="model/Drone.csys#//@rootSystemComponent/@components.0/@inputPorts.0"/>
+        <semanticElements xmi:type="sys:LeafInputPort" href="model/Drone.csys#//@rootSystemComponent/@components.0/@inputPorts.0"/>
+        <arrangeConstraints>KEEP_LOCATION</arrangeConstraints>
+        <arrangeConstraints>KEEP_SIZE</arrangeConstraints>
+        <arrangeConstraints>KEEP_RATIO</arrangeConstraints>
+        <ownedStyle xmi:type="diagram:Square" uid="_N4_GwH7UEe6egs7mdGRaEw" showIcon="false" labelPosition="node" width="8" height="2" color="194,239,255">
+          <description xmi:type="style:SquareDescription" href="platform:/plugin/design.csys.cares.ubo.fr/description/fr.odesign#//@ownedViewpoints[name='componentsystem']/@ownedRepresentations[name='Component%20System%20Diagram']/@defaultLayer/@containerMappings[name='LeafComponentContainer']/@borderedNodeMappings[name='LeafInputPortNode']/@style"/>
+        </ownedStyle>
+        <actualMapping xmi:type="description_1:NodeMapping" href="platform:/plugin/design.csys.cares.ubo.fr/description/fr.odesign#//@ownedViewpoints[name='componentsystem']/@ownedRepresentations[name='Component%20System%20Diagram']/@defaultLayer/@containerMappings[name='LeafComponentContainer']/@borderedNodeMappings[name='LeafInputPortNode']"/>
+      </ownedBorderedNodes>
+      <ownedBorderedNodes xmi:type="diagram:DNode" uid="_N4_t0X7UEe6egs7mdGRaEw" name="location" incomingEdges="_44nHcn7XEe6egs7mdGRaEw" width="8" height="2" resizeKind="NSEW">
+        <target xmi:type="sys:LeafOutputPort" href="model/Drone.csys#//@rootSystemComponent/@components.0/@outputPorts.0"/>
+        <semanticElements xmi:type="sys:LeafOutputPort" href="model/Drone.csys#//@rootSystemComponent/@components.0/@outputPorts.0"/>
+        <arrangeConstraints>KEEP_LOCATION</arrangeConstraints>
+        <arrangeConstraints>KEEP_SIZE</arrangeConstraints>
+        <arrangeConstraints>KEEP_RATIO</arrangeConstraints>
+        <ownedStyle xmi:type="diagram:Square" uid="_N4_t0n7UEe6egs7mdGRaEw" showIcon="false" labelPosition="node" width="8" height="2" color="255,245,181">
+          <description xmi:type="style:SquareDescription" href="platform:/plugin/design.csys.cares.ubo.fr/description/fr.odesign#//@ownedViewpoints[name='componentsystem']/@ownedRepresentations[name='Component%20System%20Diagram']/@defaultLayer/@containerMappings[name='LeafComponentContainer']/@borderedNodeMappings[name='LeafOutputPortNode']/@style"/>
+        </ownedStyle>
+        <actualMapping xmi:type="description_1:NodeMapping" href="platform:/plugin/design.csys.cares.ubo.fr/description/fr.odesign#//@ownedViewpoints[name='componentsystem']/@ownedRepresentations[name='Component%20System%20Diagram']/@defaultLayer/@containerMappings[name='LeafComponentContainer']/@borderedNodeMappings[name='LeafOutputPortNode']"/>
+      </ownedBorderedNodes>
+      <arrangeConstraints>KEEP_LOCATION</arrangeConstraints>
+      <arrangeConstraints>KEEP_SIZE</arrangeConstraints>
+      <arrangeConstraints>KEEP_RATIO</arrangeConstraints>
+      <ownedStyle xmi:type="diagram:FlatContainerStyle" uid="_N461UH7UEe6egs7mdGRaEw" showIcon="false" borderSize="1" borderSizeComputationExpression="1" foregroundColor="246,139,139">
+        <description xmi:type="style:FlatContainerStyleDescription" href="platform:/plugin/design.csys.cares.ubo.fr/description/fr.odesign#//@ownedViewpoints[name='componentsystem']/@ownedRepresentations[name='Component%20System%20Diagram']/@defaultLayer/@containerMappings[name='LeafComponentContainer']/@style"/>
+      </ownedStyle>
+      <actualMapping xmi:type="description_1:ContainerMapping" href="platform:/plugin/design.csys.cares.ubo.fr/description/fr.odesign#//@ownedViewpoints[name='componentsystem']/@ownedRepresentations[name='Component%20System%20Diagram']/@defaultLayer/@containerMappings[name='LeafComponentContainer']"/>
+      <ownedElements xmi:type="diagram:DNodeListElement" uid="_N5A78H7UEe6egs7mdGRaEw" name="Drone">
+        <target xmi:type="sys:LeafComponent" href="model/Drone.csys#//@rootSystemComponent/@components.0"/>
+        <semanticElements xmi:type="sys:LeafComponent" href="model/Drone.csys#//@rootSystemComponent/@components.0"/>
+        <ownedStyle xmi:type="diagram:Square" uid="_N5BjAH7UEe6egs7mdGRaEw" showIcon="false" labelPosition="node" color="239,41,41">
+          <labelFormat>underline</labelFormat>
+          <description xmi:type="style:SquareDescription" href="platform:/plugin/design.csys.cares.ubo.fr/description/fr.odesign#//@ownedViewpoints[name='componentsystem']/@ownedRepresentations[name='Component%20System%20Diagram']/@defaultLayer/@containerMappings[name='LeafComponentContainer']/@subNodeMappings[name='NameNode']/@style"/>
+        </ownedStyle>
+        <actualMapping xmi:type="description_1:NodeMapping" href="platform:/plugin/design.csys.cares.ubo.fr/description/fr.odesign#//@ownedViewpoints[name='componentsystem']/@ownedRepresentations[name='Component%20System%20Diagram']/@defaultLayer/@containerMappings[name='LeafComponentContainer']/@subNodeMappings[name='NameNode']"/>
+      </ownedElements>
+      <ownedElements xmi:type="diagram:DNodeListElement" uid="_N5CxIH7UEe6egs7mdGRaEw" name="speed">
+        <target xmi:type="dcl:ParameterInstanciation" href="model/Drone.csys#//@rootSystemComponent/@components.0/@declarations.0"/>
+        <semanticElements xmi:type="dcl:ParameterInstanciation" href="model/Drone.csys#//@rootSystemComponent/@components.0/@declarations.0"/>
+        <ownedStyle xmi:type="diagram:Square" uid="_N5CxIX7UEe6egs7mdGRaEw" showIcon="false" labelPosition="node" color="114,159,207">
+          <description xmi:type="style:SquareDescription" href="platform:/plugin/design.csys.cares.ubo.fr/description/fr.odesign#//@ownedViewpoints[name='componentsystem']/@ownedRepresentations[name='Component%20System%20Diagram']/@defaultLayer/@containerMappings[name='LeafComponentContainer']/@subNodeMappings[name='ParamNode']/@style"/>
+        </ownedStyle>
+        <actualMapping xmi:type="description_1:NodeMapping" href="platform:/plugin/design.csys.cares.ubo.fr/description/fr.odesign#//@ownedViewpoints[name='componentsystem']/@ownedRepresentations[name='Component%20System%20Diagram']/@defaultLayer/@containerMappings[name='LeafComponentContainer']/@subNodeMappings[name='ParamNode']"/>
+      </ownedElements>
+      <ownedElements xmi:type="diagram:DNodeListElement" uid="_N5CxIn7UEe6egs7mdGRaEw" name="currentLocation">
+        <target xmi:type="dcl:ParameterInstanciation" href="model/Drone.csys#//@rootSystemComponent/@components.0/@declarations.1"/>
+        <semanticElements xmi:type="dcl:ParameterInstanciation" href="model/Drone.csys#//@rootSystemComponent/@components.0/@declarations.1"/>
+        <ownedStyle xmi:type="diagram:Square" uid="_N5CxI37UEe6egs7mdGRaEw" showIcon="false" labelPosition="node" color="114,159,207">
+          <description xmi:type="style:SquareDescription" href="platform:/plugin/design.csys.cares.ubo.fr/description/fr.odesign#//@ownedViewpoints[name='componentsystem']/@ownedRepresentations[name='Component%20System%20Diagram']/@defaultLayer/@containerMappings[name='LeafComponentContainer']/@subNodeMappings[name='ParamNode']/@style"/>
+        </ownedStyle>
+        <actualMapping xmi:type="description_1:NodeMapping" href="platform:/plugin/design.csys.cares.ubo.fr/description/fr.odesign#//@ownedViewpoints[name='componentsystem']/@ownedRepresentations[name='Component%20System%20Diagram']/@defaultLayer/@containerMappings[name='LeafComponentContainer']/@subNodeMappings[name='ParamNode']"/>
+      </ownedElements>
+    </ownedDiagramElements>
+    <ownedDiagramElements xmi:type="diagram:DNodeList" uid="_gSefMX7XEe6egs7mdGRaEw" name="MainManager">
+      <target xmi:type="sys:LeafComponent" href="model/Drone.csys#//@rootSystemComponent/@components.1"/>
+      <semanticElements xmi:type="sys:LeafComponent" href="model/Drone.csys#//@rootSystemComponent/@components.1"/>
+      <ownedBorderedNodes xmi:type="diagram:DNode" uid="_gSftUH7XEe6egs7mdGRaEw" name="drLocation" incomingEdges="_5QajcH7XEe6egs7mdGRaEw" width="8" height="2" resizeKind="NSEW">
+        <target xmi:type="sys:LeafInputPort" href="model/Drone.csys#//@rootSystemComponent/@components.1/@inputPorts.0"/>
+        <semanticElements xmi:type="sys:LeafInputPort" href="model/Drone.csys#//@rootSystemComponent/@components.1/@inputPorts.0"/>
+        <arrangeConstraints>KEEP_LOCATION</arrangeConstraints>
+        <arrangeConstraints>KEEP_SIZE</arrangeConstraints>
+        <arrangeConstraints>KEEP_RATIO</arrangeConstraints>
+        <ownedStyle xmi:type="diagram:Square" uid="_gSftUX7XEe6egs7mdGRaEw" showIcon="false" labelPosition="node" width="8" height="2" color="194,239,255">
+          <description xmi:type="style:SquareDescription" href="platform:/plugin/design.csys.cares.ubo.fr/description/fr.odesign#//@ownedViewpoints[name='componentsystem']/@ownedRepresentations[name='Component%20System%20Diagram']/@defaultLayer/@containerMappings[name='LeafComponentContainer']/@borderedNodeMappings[name='LeafInputPortNode']/@style"/>
+        </ownedStyle>
+        <actualMapping xmi:type="description_1:NodeMapping" href="platform:/plugin/design.csys.cares.ubo.fr/description/fr.odesign#//@ownedViewpoints[name='componentsystem']/@ownedRepresentations[name='Component%20System%20Diagram']/@defaultLayer/@containerMappings[name='LeafComponentContainer']/@borderedNodeMappings[name='LeafInputPortNode']"/>
+      </ownedBorderedNodes>
+      <ownedBorderedNodes xmi:type="diagram:DNode" uid="_gSgUYX7XEe6egs7mdGRaEw" name="newLocation" incomingEdges="_4gAaMH7XEe6egs7mdGRaEw" width="8" height="2" resizeKind="NSEW">
+        <target xmi:type="sys:LeafOutputPort" href="model/Drone.csys#//@rootSystemComponent/@components.1/@outputPorts.0"/>
+        <semanticElements xmi:type="sys:LeafOutputPort" href="model/Drone.csys#//@rootSystemComponent/@components.1/@outputPorts.0"/>
+        <arrangeConstraints>KEEP_LOCATION</arrangeConstraints>
+        <arrangeConstraints>KEEP_SIZE</arrangeConstraints>
+        <arrangeConstraints>KEEP_RATIO</arrangeConstraints>
+        <ownedStyle xmi:type="diagram:Square" uid="_gSg7cH7XEe6egs7mdGRaEw" showIcon="false" labelPosition="node" width="8" height="2" color="255,245,181">
+          <description xmi:type="style:SquareDescription" href="platform:/plugin/design.csys.cares.ubo.fr/description/fr.odesign#//@ownedViewpoints[name='componentsystem']/@ownedRepresentations[name='Component%20System%20Diagram']/@defaultLayer/@containerMappings[name='LeafComponentContainer']/@borderedNodeMappings[name='LeafOutputPortNode']/@style"/>
+        </ownedStyle>
+        <actualMapping xmi:type="description_1:NodeMapping" href="platform:/plugin/design.csys.cares.ubo.fr/description/fr.odesign#//@ownedViewpoints[name='componentsystem']/@ownedRepresentations[name='Component%20System%20Diagram']/@defaultLayer/@containerMappings[name='LeafComponentContainer']/@borderedNodeMappings[name='LeafOutputPortNode']"/>
+      </ownedBorderedNodes>
+      <arrangeConstraints>KEEP_LOCATION</arrangeConstraints>
+      <arrangeConstraints>KEEP_SIZE</arrangeConstraints>
+      <arrangeConstraints>KEEP_RATIO</arrangeConstraints>
+      <ownedStyle xmi:type="diagram:FlatContainerStyle" uid="_gSfGQH7XEe6egs7mdGRaEw" showIcon="false" borderSize="1" borderSizeComputationExpression="1" foregroundColor="246,139,139">
+        <description xmi:type="style:FlatContainerStyleDescription" href="platform:/plugin/design.csys.cares.ubo.fr/description/fr.odesign#//@ownedViewpoints[name='componentsystem']/@ownedRepresentations[name='Component%20System%20Diagram']/@defaultLayer/@containerMappings[name='LeafComponentContainer']/@style"/>
+      </ownedStyle>
+      <actualMapping xmi:type="description_1:ContainerMapping" href="platform:/plugin/design.csys.cares.ubo.fr/description/fr.odesign#//@ownedViewpoints[name='componentsystem']/@ownedRepresentations[name='Component%20System%20Diagram']/@defaultLayer/@containerMappings[name='LeafComponentContainer']"/>
+      <ownedElements xmi:type="diagram:DNodeListElement" uid="_gShigH7XEe6egs7mdGRaEw" name="Manager">
+        <target xmi:type="sys:LeafComponent" href="model/Drone.csys#//@rootSystemComponent/@components.1"/>
+        <semanticElements xmi:type="sys:LeafComponent" href="model/Drone.csys#//@rootSystemComponent/@components.1"/>
+        <ownedStyle xmi:type="diagram:Square" uid="_gShigX7XEe6egs7mdGRaEw" showIcon="false" labelPosition="node" color="239,41,41">
+          <labelFormat>underline</labelFormat>
+          <description xmi:type="style:SquareDescription" href="platform:/plugin/design.csys.cares.ubo.fr/description/fr.odesign#//@ownedViewpoints[name='componentsystem']/@ownedRepresentations[name='Component%20System%20Diagram']/@defaultLayer/@containerMappings[name='LeafComponentContainer']/@subNodeMappings[name='NameNode']/@style"/>
+        </ownedStyle>
+        <actualMapping xmi:type="description_1:NodeMapping" href="platform:/plugin/design.csys.cares.ubo.fr/description/fr.odesign#//@ownedViewpoints[name='componentsystem']/@ownedRepresentations[name='Component%20System%20Diagram']/@defaultLayer/@containerMappings[name='LeafComponentContainer']/@subNodeMappings[name='NameNode']"/>
+      </ownedElements>
+      <ownedElements xmi:type="diagram:DNodeListElement" uid="_gShign7XEe6egs7mdGRaEw" name="direction">
+        <target xmi:type="dcl:ParameterInstanciation" href="model/Drone.csys#//@rootSystemComponent/@components.1/@declarations.0"/>
+        <semanticElements xmi:type="dcl:ParameterInstanciation" href="model/Drone.csys#//@rootSystemComponent/@components.1/@declarations.0"/>
+        <ownedStyle xmi:type="diagram:Square" uid="_gShig37XEe6egs7mdGRaEw" showIcon="false" labelPosition="node" color="114,159,207">
+          <description xmi:type="style:SquareDescription" href="platform:/plugin/design.csys.cares.ubo.fr/description/fr.odesign#//@ownedViewpoints[name='componentsystem']/@ownedRepresentations[name='Component%20System%20Diagram']/@defaultLayer/@containerMappings[name='LeafComponentContainer']/@subNodeMappings[name='ParamNode']/@style"/>
+        </ownedStyle>
+        <actualMapping xmi:type="description_1:NodeMapping" href="platform:/plugin/design.csys.cares.ubo.fr/description/fr.odesign#//@ownedViewpoints[name='componentsystem']/@ownedRepresentations[name='Component%20System%20Diagram']/@defaultLayer/@containerMappings[name='LeafComponentContainer']/@subNodeMappings[name='ParamNode']"/>
+      </ownedElements>
+    </ownedDiagramElements>
+    <ownedDiagramElements xmi:type="diagram:DNode" uid="_zPwokH7XEe6egs7mdGRaEw" name="NL" outgoingEdges="_4gAaMH7XEe6egs7mdGRaEw _5rbEcn7XEe6egs7mdGRaEw" width="3" height="3" resizeKind="NSEW">
+      <target xmi:type="sys:DataLink" href="model/Drone.csys#//@rootSystemComponent/@links.0"/>
+      <semanticElements xmi:type="sys:DataLink" href="model/Drone.csys#//@rootSystemComponent/@links.0"/>
+      <arrangeConstraints>KEEP_LOCATION</arrangeConstraints>
+      <arrangeConstraints>KEEP_SIZE</arrangeConstraints>
+      <arrangeConstraints>KEEP_RATIO</arrangeConstraints>
+      <ownedStyle xmi:type="diagram:Dot" uid="_zPwokX7XEe6egs7mdGRaEw" labelSize="12" showIcon="false" labelPosition="node">
+        <description xmi:type="style:DotDescription" href="platform:/plugin/design.csys.cares.ubo.fr/description/fr.odesign#//@ownedViewpoints[name='componentsystem']/@ownedRepresentations[name='Component%20System%20Diagram']/@defaultLayer/@nodeMappings[name='DataLink']/@style"/>
+      </ownedStyle>
+      <actualMapping xmi:type="description_1:NodeMapping" href="platform:/plugin/design.csys.cares.ubo.fr/description/fr.odesign#//@ownedViewpoints[name='componentsystem']/@ownedRepresentations[name='Component%20System%20Diagram']/@defaultLayer/@nodeMappings[name='DataLink']"/>
+    </ownedDiagramElements>
+    <ownedDiagramElements xmi:type="diagram:DNode" uid="_zjxwwH7XEe6egs7mdGRaEw" name="drL" outgoingEdges="_44nHcn7XEe6egs7mdGRaEw _5QajcH7XEe6egs7mdGRaEw" width="3" height="3" resizeKind="NSEW">
+      <target xmi:type="sys:DataLink" href="model/Drone.csys#//@rootSystemComponent/@links.1"/>
+      <semanticElements xmi:type="sys:DataLink" href="model/Drone.csys#//@rootSystemComponent/@links.1"/>
+      <arrangeConstraints>KEEP_LOCATION</arrangeConstraints>
+      <arrangeConstraints>KEEP_SIZE</arrangeConstraints>
+      <arrangeConstraints>KEEP_RATIO</arrangeConstraints>
+      <ownedStyle xmi:type="diagram:Dot" uid="_zjxwwX7XEe6egs7mdGRaEw" labelSize="12" showIcon="false" labelPosition="node">
+        <description xmi:type="style:DotDescription" href="platform:/plugin/design.csys.cares.ubo.fr/description/fr.odesign#//@ownedViewpoints[name='componentsystem']/@ownedRepresentations[name='Component%20System%20Diagram']/@defaultLayer/@nodeMappings[name='DataLink']/@style"/>
+      </ownedStyle>
+      <actualMapping xmi:type="description_1:NodeMapping" href="platform:/plugin/design.csys.cares.ubo.fr/description/fr.odesign#//@ownedViewpoints[name='componentsystem']/@ownedRepresentations[name='Component%20System%20Diagram']/@defaultLayer/@nodeMappings[name='DataLink']"/>
+    </ownedDiagramElements>
+    <ownedDiagramElements xmi:type="diagram:DEdge" uid="_4gAaMH7XEe6egs7mdGRaEw" sourceNode="_zPwokH7XEe6egs7mdGRaEw" targetNode="_gSgUYX7XEe6egs7mdGRaEw">
+      <target xmi:type="sys:DataLink" href="model/Drone.csys#//@rootSystemComponent/@links.0"/>
+      <ownedStyle xmi:type="diagram:EdgeStyle" uid="_4gBBQH7XEe6egs7mdGRaEw" sourceArrow="InputFillClosedArrow" targetArrow="NoDecoration" size="2" routingStyle="manhattan">
+        <description xmi:type="style:EdgeStyleDescription" href="platform:/plugin/design.csys.cares.ubo.fr/description/fr.odesign#//@ownedViewpoints[name='componentsystem']/@ownedRepresentations[name='Component%20System%20Diagram']/@defaultLayer/@edgeMappings[name='DataLinkSource']/@style"/>
+      </ownedStyle>
+      <actualMapping xmi:type="description_1:EdgeMapping" href="platform:/plugin/design.csys.cares.ubo.fr/description/fr.odesign#//@ownedViewpoints[name='componentsystem']/@ownedRepresentations[name='Component%20System%20Diagram']/@defaultLayer/@edgeMappings[name='DataLinkSource']"/>
+    </ownedDiagramElements>
+    <ownedDiagramElements xmi:type="diagram:DEdge" uid="_44nHcn7XEe6egs7mdGRaEw" sourceNode="_zjxwwH7XEe6egs7mdGRaEw" targetNode="_N4_t0X7UEe6egs7mdGRaEw">
+      <target xmi:type="sys:DataLink" href="model/Drone.csys#//@rootSystemComponent/@links.1"/>
+      <ownedStyle xmi:type="diagram:EdgeStyle" uid="_44nugH7XEe6egs7mdGRaEw" sourceArrow="InputFillClosedArrow" targetArrow="NoDecoration" size="2" routingStyle="manhattan">
+        <description xmi:type="style:EdgeStyleDescription" href="platform:/plugin/design.csys.cares.ubo.fr/description/fr.odesign#//@ownedViewpoints[name='componentsystem']/@ownedRepresentations[name='Component%20System%20Diagram']/@defaultLayer/@edgeMappings[name='DataLinkSource']/@style"/>
+      </ownedStyle>
+      <actualMapping xmi:type="description_1:EdgeMapping" href="platform:/plugin/design.csys.cares.ubo.fr/description/fr.odesign#//@ownedViewpoints[name='componentsystem']/@ownedRepresentations[name='Component%20System%20Diagram']/@defaultLayer/@edgeMappings[name='DataLinkSource']"/>
+    </ownedDiagramElements>
+    <ownedDiagramElements xmi:type="diagram:DEdge" uid="_5QajcH7XEe6egs7mdGRaEw" sourceNode="_zjxwwH7XEe6egs7mdGRaEw" targetNode="_gSftUH7XEe6egs7mdGRaEw">
+      <target xmi:type="sys:DataLink" href="model/Drone.csys#//@rootSystemComponent/@links.1"/>
+      <ownedStyle xmi:type="diagram:EdgeStyle" uid="_5QbKgH7XEe6egs7mdGRaEw" size="2" routingStyle="manhattan">
+        <description xmi:type="style:EdgeStyleDescription" href="platform:/plugin/design.csys.cares.ubo.fr/description/fr.odesign#//@ownedViewpoints[name='componentsystem']/@ownedRepresentations[name='Component%20System%20Diagram']/@defaultLayer/@edgeMappings[name='DataLinkTarget']/@style"/>
+      </ownedStyle>
+      <actualMapping xmi:type="description_1:EdgeMapping" href="platform:/plugin/design.csys.cares.ubo.fr/description/fr.odesign#//@ownedViewpoints[name='componentsystem']/@ownedRepresentations[name='Component%20System%20Diagram']/@defaultLayer/@edgeMappings[name='DataLinkTarget']"/>
+    </ownedDiagramElements>
+    <ownedDiagramElements xmi:type="diagram:DEdge" uid="_5rbEcn7XEe6egs7mdGRaEw" sourceNode="_zPwokH7XEe6egs7mdGRaEw" targetNode="_N494oH7UEe6egs7mdGRaEw">
+      <target xmi:type="sys:DataLink" href="model/Drone.csys#//@rootSystemComponent/@links.0"/>
+      <ownedStyle xmi:type="diagram:EdgeStyle" uid="_5rbEc37XEe6egs7mdGRaEw" size="2" routingStyle="manhattan">
+        <description xmi:type="style:EdgeStyleDescription" href="platform:/plugin/design.csys.cares.ubo.fr/description/fr.odesign#//@ownedViewpoints[name='componentsystem']/@ownedRepresentations[name='Component%20System%20Diagram']/@defaultLayer/@edgeMappings[name='DataLinkTarget']/@style"/>
+      </ownedStyle>
+      <actualMapping xmi:type="description_1:EdgeMapping" href="platform:/plugin/design.csys.cares.ubo.fr/description/fr.odesign#//@ownedViewpoints[name='componentsystem']/@ownedRepresentations[name='Component%20System%20Diagram']/@defaultLayer/@edgeMappings[name='DataLinkTarget']"/>
+    </ownedDiagramElements>
+    <description xmi:type="description_1:DiagramDescription" href="platform:/plugin/design.csys.cares.ubo.fr/description/fr.odesign#//@ownedViewpoints[name='componentsystem']/@ownedRepresentations[name='Component%20System%20Diagram']"/>
+    <filterVariableHistory xmi:type="diagram:FilterVariableHistory" uid="_IasSEH7UEe6egs7mdGRaEw"/>
+    <activatedLayers xmi:type="description_1:Layer" href="platform:/plugin/design.csys.cares.ubo.fr/description/fr.odesign#//@ownedViewpoints[name='componentsystem']/@ownedRepresentations[name='Component%20System%20Diagram']/@defaultLayer"/>
+    <target xmi:type="sys:CompositeComponent" href="model/Drone.csys#//@rootSystemComponent"/>
+  </diagram:DSemanticDiagram>
+</xmi:XMI>

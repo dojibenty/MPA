@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<sys:CaresSystem xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:sys="http://fr.ubo.mde.cares/sys" name="DroneDescription">
+  <declarations href="Drone.dcl#Drone"/>
+  <declarations href="core.dcl#core"/>
+  <rootSystemComponent name="DroneSystem">
+    <components xsi:type="sys:LeafComponent" name="InstDrone">
+      <type href="Drone.dcl#Drone.Drone"/>
+      <declarations name="speed" value="1.">
+        <parameter href="Drone.dcl#Drone.Drone.speed"/>
+      </declarations>
+      <declarations name="currentLocation" value="Vector3.Zero">
+        <parameter href="Drone.dcl#Drone.Drone.currentLocation"/>
+      </declarations>
+      <inputPorts source="//@rootSystemComponent/@links.0" name="newLocation">
+        <input href="Drone.dcl#Drone.Drone.newLocation"/>
+      </inputPorts>
+      <outputPorts target="//@rootSystemComponent/@links.1" name="location">
+        <output href="Drone.dcl#Drone.Drone.location"/>
+      </outputPorts>
+    </components>
+    <components xsi:type="sys:LeafComponent" name="MainManager">
+      <type href="Drone.dcl#Drone.Manager"/>
+      <declarations name="direction" value="Vector3.Forwards">
+        <parameter href="Drone.dcl#Drone.Manager.direction"/>
+      </declarations>
+      <inputPorts source="//@rootSystemComponent/@links.1" name="drLocation">
+        <input href="Drone.dcl#Drone.Manager.drLocation"/>
+      </inputPorts>
+      <outputPorts target="//@rootSystemComponent/@links.0" name="newLocation">
+        <output href="Drone.dcl#Drone.Manager.newLocation"/>
+      </outputPorts>
+    </components>
+    <links name="NL" source="//@rootSystemComponent/@components.1/@outputPorts.0" target="//@rootSystemComponent/@components.0/@inputPorts.0"/>
+    <links name="drL" source="//@rootSystemComponent/@components.0/@outputPorts.0" target="//@rootSystemComponent/@components.1/@inputPorts.0"/>
+  </rootSystemComponent>
+</sys:CaresSystem>

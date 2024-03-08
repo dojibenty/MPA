@@ -1,0 +1,26 @@
+Simulation testDrone (ms)
+	system DroneDescription;
+	simulationTime [0,100000]:1;
+	
+	begin {
+		"DroneDescription.DroneSystem.InstDrone.speed" = 2.0;
+	}
+	
+	scenarios {
+		Scenario scenarLog [2]
+			begin {
+				
+			}
+			events {
+				instant 90000 {
+					"DroneDescription.DroneSystem.InstDrone.speed" = 0.5;
+				}
+			}
+			end {}
+			logs {
+				DronePosition.csv timed (1.0) {
+					"DroneDescription.DroneSystem.InstDrone.location";
+				}
+			};
+		}
+	end {}

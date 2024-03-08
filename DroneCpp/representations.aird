@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<viewpoint:DAnalysis xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:viewpoint="http://www.eclipse.org/sirius/1.1.0" uid="_10wD8H7OEe6Q6pbqbglT5Q" version="14.1.0.201810161215">
+  <semanticResources>model/Drone.csys</semanticResources>
+  <semanticResources>model/Drone.dcl</semanticResources>
+  <semanticResources>model/core.dcl</semanticResources>
+  <semanticResources>model/Drone.scn</semanticResources>
+</viewpoint:DAnalysis>

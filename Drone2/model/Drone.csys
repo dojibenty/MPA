@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<sys:CaresSystem xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:sys="http://fr.ubo.mde.cares/sys" name="DroneDescription">
+  <declarations href="Drone.dcl#Drone"/>
+  <declarations href="core.dcl#core"/>
+  <rootSystemComponent name="DroneSystem">
+    <components xsi:type="sys:LeafComponent" name="InstDrone">
+      <type href="Drone.dcl#Drone.Drone"/>
+      <declarations name="speed" value="1.">
+        <parameter href="Drone.dcl#Drone.Drone.speed"/>
+      </declarations>
+      <declarations name="direction" value="Vector3.FORWARD">
+        <parameter href="Drone.dcl#Drone.Drone.direction"/>
+      </declarations>
+      <declarations name="drPosition" value="Vector3.ZERO">
+        <parameter href="Drone.dcl#Drone.Drone.drPosition"/>
+      </declarations>
+      <inputPorts source="//@rootSystemComponent/@links.0" name="force">
+        <input href="Drone.dcl#Drone.Drone.force"/>
+      </inputPorts>
+      <outputPorts target="//@rootSystemComponent/@links.1" name="position">
+        <output href="Drone.dcl#Drone.Drone.position"/>
+      </outputPorts>
+    </components>
+    <components xsi:type="sys:LeafComponent" name="InstWind">
+      <type href="Drone.dcl#Drone.Wind"/>
+      <declarations name="windData" value="new WindData(Vector3.ZERO,Vector3.ZERO)">
+        <parameter href="Drone.dcl#Drone.Wind.windData"/>
+      </declarations>
+      <inputPorts source="//@rootSystemComponent/@links.1" name="position">
+        <input href="Drone.dcl#Drone.Wind.position"/>
+      </inputPorts>
+      <outputPorts target="//@rootSystemComponent/@links.0" name="force">
+        <output href="Drone.dcl#Drone.Wind.force"/>
+      </outputPorts>
+    </components>
+    <links name="FOR" source="//@rootSystemComponent/@components.1/@outputPorts.0" target="//@rootSystemComponent/@components.0/@inputPorts.0"/>
+    <links name="POS" source="//@rootSystemComponent/@components.0/@outputPorts.0" target="//@rootSystemComponent/@components.1/@inputPorts.0"/>
+  </rootSystemComponent>
+</sys:CaresSystem>
